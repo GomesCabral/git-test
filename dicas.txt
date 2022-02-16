@@ -1,0 +1,11 @@
+1. abrir a pasta com GIT BASH HERE
+2. dentro da pasta na linha de comando digitar			git init
+3. CASO QUEIRA ABRIR O VSCODE DIGITAR				code .
+4. para adicionar todos os ficheiros da pasta digitar		git add .
+5. comando:									git commit -m "First commit"
+6. ver o status								git status
+
+caso faça alguma alteração e queira fazer um novo commit
+
+7. 										git add .
+8. 										git commit -m "Second commit"
