@@ -9,3 +9,31 @@ caso faça alguma alteração e queira fazer um novo commit
 
 7. 										git add .
 8. 										git commit -m "Second commit"
+
+CASO QUEIRA TRABALHAR NUMA VERSÃO ANTERIOR DE UM COMMIT.. POR EXEMPLO, VOLTAR AO PRIMEIRO COMMIT
+
+9. git log --oneline
+10. git checkout 5e06d5d (estes tem que ser igual ao commit)
+
+isto vai alterar o meu codigo no vs code, vai ficar igual ao primeiro commit
+
+ir para a ultima versão do codigo
+
+11. git reset HEAD index.html
+12. git checkout -- index.html
+
+
+CRIAR UM REPOSITORIO NO GIT:
+
+1. no site, criar um novo repositorio
+2. no git bash (linha de comando) dentro da pasta de trabalho
+3. git remote add origin <your remote repository URL>
+4. preciso criar um personal access token:
+	https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+	1.na seta da foto de perfil
+	settings/"lado esquerdo" developer settings
+	personal access tokens/dar nome e prazo
+	definir o acesso no scopes (pelo menos o repo)
+	copiar e guardar o codigo
+	exemplo: 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
+5. no terminal bash digitar:		git push -u origin master

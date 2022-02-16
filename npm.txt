@@ -1,0 +1,12 @@
+1. npm init
+2. instalar lite server para atualizar as alterações das paginas ao gravar
+	npm install lite-server --save-dev
+3 no package.json:
+	no "scripts":
+		adicionar: "start": "npm run lite",
+        		"lite": "lite-server"
+4. npm start
+
+NOTA: NÃO QUEREMOS E NEM PRECISAMOS CARREGAR OS MODULOS NODE PARA POUPAR ESPAÇO
+	PARA ISSO CRIAMOS UM FICHEIRO .gitignore
+	e escrevemos node_modules
